@@ -1,0 +1,13 @@
+                                                                Terminal command
+                                                                
+                                                               1. sudo systemctl stop nginx
+                                                               2. sudo systemctl start apache2
+                                                               3. ls
+                                                               4. sudo chmod -f 777 . / fun
+                                                               5. sudo su 
+                                                               6. mkdir
+                                                               7. touch test.txt
+                                                               8 .pwd
+                                                               9 .cp -r foldername/home/linux/music
+                                                               10. mv jquery jq ---rename
+                                                               11. cd/home 

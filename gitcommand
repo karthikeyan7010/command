@@ -1,0 +1,30 @@
+                                                                            github code
+                                                                            
+                                                                            
+                                                                     1.git init ---file will be create
+                                                                     2.git status
+                                                                     3.touch.txt
+                                                                     4.git add 1.txt ----changes to trakesd file
+                                                                     5.git commit -m 'message'
+                                                                     6. git checkout master
+                                                                     7. git branch
+                                                                     8.sudo rm -r[filename] ------>Delete file
+                                                                     9. mv [oldname] [newname]
+                                                                     10. unzip [filename]
+                                                                     11.mv [filename] /var/www/html/
+                                                                     12.cd..
+                                                                     13.ls
+                                                                     14.ls -ltr
+                                                                     15.sudo chown -r linux:linux ./html
+                                                                     
+                                                                     
+                                                                     github push command
+                                                                     
+                                                                     1.git init
+                                                                     2.git remote add orgin href link
+                                                                     3.git remote show origin
+                                                                     4.git status
+                                                                     5. git add .
+                                                                     6.git commit -m 'message'
+                                                                     7.git branch *master
+                                                                     8. git push origin master
