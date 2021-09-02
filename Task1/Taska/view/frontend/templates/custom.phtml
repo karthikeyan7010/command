@@ -1,0 +1,12 @@
+<?php
+
+    $product = $block->getCurrentProduct();
+		 
+    $preOrderUrl = $block->getUrl('preorder',['sku'=>$product->getSku()]);
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $StockState = $objectManager->get('\Magento\CatalogInventory\Api\StockStateInterface');
+    $qty = $StockState->getStockQty($product->getId());
+    print_r($qty);
+    
+?>
+    <span>Qty</span>

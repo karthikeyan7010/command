@@ -1,0 +1,12 @@
+<?php
+
+    $product = $block->getCurrentProduct();
+		 
+
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $StockState = $objectManager->get('\Magento\CatalogInventory\Api\StockStateInterface');
+    $qty = $StockState->getStockQty($product->getId());
+    print_r($qty);
+    
+?>
+    <span>Qty</span>

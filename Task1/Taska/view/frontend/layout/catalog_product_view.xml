@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+   <body>
+       <referenceBlock name="product.info.details">
+           <block class="Magento\Catalog\Block\Product\View" name="tab1" template="Task1_Taska::custom_tab.phtml" group="detailed_info" >
+               <arguments>
+                   <argument translate="true" name="title" xsi:type="string">Custom Tab</argument>
+               </arguments>
+           </block>
+       </referenceBlock>
+       <referenceContainer name="sidebar.additional">
+    <block class="Magento\Cms\Block\Block" name="product_view_right_sidebar">
+        <arguments>
+                <argument name="block_id" xsi:type="string">free-shipping</argument>
+        </arguments>
+    </block>
+</referenceContainer>
+<referenceContainer name="product.info.stock.sku">
+		<block class="Task1\Taska\Block\GetProducts" template="Task1_Taska::custom.phtml"/>
+    </referenceContainer>
+   </body>
+</page>
+
+
